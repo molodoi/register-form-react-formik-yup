@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+* {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.sidebar {
+  background-color: #006bf1;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bg-blue {
+  background-color: #006bf1;
+}
+
+.sidebar div {
+    max-width: 550px;
+}
+
+h1, h2, h3 {
+  color: #031b4e;
+}
+
+.btn-light-primary {
+  color: #008aff;
+  border-color: #cce8ff;
+  background-color: #cce8ff;
+  box-shadow: none;
+}
+
+.form-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
